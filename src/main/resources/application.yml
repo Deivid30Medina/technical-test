@@ -9,6 +9,8 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-
+server:
+  servlet:
+    context-path: /api/v1
 dummyjson:
   base-url: https://dummyjson.com
