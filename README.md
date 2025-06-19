@@ -44,7 +44,7 @@ Before running the project, make sure the following prerequisites are met:
 1. Clone the repository:
 
    ```bash
-   https://github.com/Deivid30Medina/technical-test.git
+   git clone https://github.com/Deivid30Medina/technical-test.git
    ```
 
 2.  Navigate to the project directory.
@@ -164,3 +164,4 @@ Each successful login is saved in the login_log table with the following structu
 
 ### Flow Diagram
 
+![Diagrama de flujo](./images/Diagrama_de_flujo.png)
