@@ -26,6 +26,11 @@ public class AuthServiceImpl implements AuthService {
         return answer;
     }
 
+    /**
+     * Stores a successful authentication attempt in the login log.
+     * @param request - request the authentication request containing the username
+     * @param answer - answer  the successful authentication response with tokens
+     */
     private void createLogLogin(AuthRequestDTO request, AuthResponseDTO answer) {
         repository.save(new LoginLog(
                 null,
